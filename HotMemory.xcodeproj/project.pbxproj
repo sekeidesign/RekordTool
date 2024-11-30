@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2831C2CD2CFABA8500E9BE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2831C2B32CFABA8400E9BE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2831C2BA2CFABA8400E9BE5C;
+			remoteInfo = HotMemory;
+		};
+		2831C2D72CFABA8500E9BE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2831C2B32CFABA8400E9BE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2831C2BA2CFABA8400E9BE5C;
+			remoteInfo = HotMemory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2831C2BB2CFABA8400E9BE5C /* HotMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2831C2BD2CFABA8400E9BE5C /* HotMemory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotMemory;
+			sourceTree = "<group>";
+		};
+		2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotMemoryTests;
+			sourceTree = "<group>";
+		};
+		2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotMemoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2831C2B82CFABA8400E9BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2C92CFABA8500E9BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2D32CFABA8500E9BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2831C2B22CFABA8400E9BE5C = {
+			isa = PBXGroup;
+			children = (
+				2831C2BD2CFABA8400E9BE5C /* HotMemory */,
+				2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */,
+				2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */,
+				2831C2BC2CFABA8400E9BE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2831C2BC2CFABA8400E9BE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2831C2BB2CFABA8400E9BE5C /* HotMemory.app */,
+				2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */,
+				2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2831C2BA2CFABA8400E9BE5C /* HotMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemory" */;
+			buildPhases = (
+				2831C2B72CFABA8400E9BE5C /* Sources */,
+				2831C2B82CFABA8400E9BE5C /* Frameworks */,
+				2831C2B92CFABA8400E9BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2831C2BD2CFABA8400E9BE5C /* HotMemory */,
+			);
+			name = HotMemory;
+			packageProductDependencies = (
+			);
+			productName = HotMemory;
+			productReference = 2831C2BB2CFABA8400E9BE5C /* HotMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2831C2CB2CFABA8500E9BE5C /* HotMemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryTests" */;
+			buildPhases = (
+				2831C2C82CFABA8500E9BE5C /* Sources */,
+				2831C2C92CFABA8500E9BE5C /* Frameworks */,
+				2831C2CA2CFABA8500E9BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2831C2CE2CFABA8500E9BE5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */,
+			);
+			name = HotMemoryTests;
+			packageProductDependencies = (
+			);
+			productName = HotMemoryTests;
+			productReference = 2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2831C2D52CFABA8500E9BE5C /* HotMemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryUITests" */;
+			buildPhases = (
+				2831C2D22CFABA8500E9BE5C /* Sources */,
+				2831C2D32CFABA8500E9BE5C /* Frameworks */,
+				2831C2D42CFABA8500E9BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2831C2D82CFABA8500E9BE5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */,
+			);
+			name = HotMemoryUITests;
+			packageProductDependencies = (
+			);
+			productName = HotMemoryUITests;
+			productReference = 2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2831C2B32CFABA8400E9BE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2831C2BA2CFABA8400E9BE5C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2831C2CB2CFABA8500E9BE5C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2831C2BA2CFABA8400E9BE5C;
+					};
+					2831C2D52CFABA8500E9BE5C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2831C2BA2CFABA8400E9BE5C;
+					};
+				};
+			};
+			buildConfigurationList = 2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "HotMemory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2831C2B22CFABA8400E9BE5C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2831C2BC2CFABA8400E9BE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2831C2BA2CFABA8400E9BE5C /* HotMemory */,
+				2831C2CB2CFABA8500E9BE5C /* HotMemoryTests */,
+				2831C2D52CFABA8500E9BE5C /* HotMemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2831C2B92CFABA8400E9BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2CA2CFABA8500E9BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2D42CFABA8500E9BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2831C2B72CFABA8400E9BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2C82CFABA8500E9BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2831C2D22CFABA8500E9BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2831C2CE2CFABA8500E9BE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2831C2BA2CFABA8400E9BE5C /* HotMemory */;
+			targetProxy = 2831C2CD2CFABA8500E9BE5C /* PBXContainerItemProxy */;
+		};
+		2831C2D82CFABA8500E9BE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2831C2BA2CFABA8400E9BE5C /* HotMemory */;
+			targetProxy = 2831C2D72CFABA8500E9BE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2831C2DE2CFABA8500E9BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2831C2DF2CFABA8500E9BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2831C2E12CFABA8500E9BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotMemory/HotMemory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotMemory/Preview Content\"";
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2831C2E22CFABA8500E9BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotMemory/HotMemory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotMemory/Preview Content\"";
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2831C2E42CFABA8500E9BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotMemory";
+			};
+			name = Debug;
+		};
+		2831C2E52CFABA8500E9BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotMemory";
+			};
+			name = Release;
+		};
+		2831C2E72CFABA8500E9BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HotMemory;
+			};
+			name = Debug;
+		};
+		2831C2E82CFABA8500E9BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMQQK9934E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HotMemory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "HotMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2831C2DE2CFABA8500E9BE5C /* Debug */,
+				2831C2DF2CFABA8500E9BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2831C2E12CFABA8500E9BE5C /* Debug */,
+				2831C2E22CFABA8500E9BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2831C2E42CFABA8500E9BE5C /* Debug */,
+				2831C2E52CFABA8500E9BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2831C2E72CFABA8500E9BE5C /* Debug */,
+				2831C2E82CFABA8500E9BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2831C2B32CFABA8400E9BE5C /* Project object */;
+}
