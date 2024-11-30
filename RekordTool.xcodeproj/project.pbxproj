@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2831C2F42CFB66C100E9BE5C /* FileStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831C2F32CFB66C100E9BE5C /* FileStreamer.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2831C2CD2CFABA8500E9BE5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2831C2BB2CFABA8400E9BE5C /* HotMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2BB2CFABA8400E9BE5C /* RekordTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RekordTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2CC2CFABA8500E9BE5C /* RekordToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RekordToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2D62CFABA8500E9BE5C /* RekordToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RekordToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831C2F32CFB66C100E9BE5C /* FileStreamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStreamer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2831C2BD2CFABA8400E9BE5C /* HotMemory */ = {
+		2831C2BD2CFABA8400E9BE5C /* RekordTool */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HotMemory;
-			sourceTree = "<group>";
-		};
-		2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HotMemoryTests;
-			sourceTree = "<group>";
-		};
-		2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HotMemoryUITests;
+			path = RekordTool;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +70,8 @@
 		2831C2B22CFABA8400E9BE5C = {
 			isa = PBXGroup;
 			children = (
-				2831C2BD2CFABA8400E9BE5C /* HotMemory */,
-				2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */,
-				2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */,
+				2831C2F32CFB66C100E9BE5C /* FileStreamer.swift */,
+				2831C2BD2CFABA8400E9BE5C /* RekordTool */,
 				2831C2BC2CFABA8400E9BE5C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +79,9 @@
 		2831C2BC2CFABA8400E9BE5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2831C2BB2CFABA8400E9BE5C /* HotMemory.app */,
-				2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */,
-				2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */,
+				2831C2BB2CFABA8400E9BE5C /* RekordTool.app */,
+				2831C2CC2CFABA8500E9BE5C /* RekordToolTests.xctest */,
+				2831C2D62CFABA8500E9BE5C /* RekordToolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2831C2BA2CFABA8400E9BE5C /* HotMemory */ = {
+		2831C2BA2CFABA8400E9BE5C /* RekordTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemory" */;
+			buildConfigurationList = 2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordTool" */;
 			buildPhases = (
 				2831C2B72CFABA8400E9BE5C /* Sources */,
 				2831C2B82CFABA8400E9BE5C /* Frameworks */,
@@ -108,18 +102,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2831C2BD2CFABA8400E9BE5C /* HotMemory */,
+				2831C2BD2CFABA8400E9BE5C /* RekordTool */,
 			);
-			name = HotMemory;
+			name = RekordTool;
 			packageProductDependencies = (
 			);
 			productName = HotMemory;
-			productReference = 2831C2BB2CFABA8400E9BE5C /* HotMemory.app */;
+			productReference = 2831C2BB2CFABA8400E9BE5C /* RekordTool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2831C2CB2CFABA8500E9BE5C /* HotMemoryTests */ = {
+		2831C2CB2CFABA8500E9BE5C /* RekordToolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryTests" */;
+			buildConfigurationList = 2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordToolTests" */;
 			buildPhases = (
 				2831C2C82CFABA8500E9BE5C /* Sources */,
 				2831C2C92CFABA8500E9BE5C /* Frameworks */,
@@ -130,19 +124,16 @@
 			dependencies = (
 				2831C2CE2CFABA8500E9BE5C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2831C2CF2CFABA8500E9BE5C /* HotMemoryTests */,
-			);
-			name = HotMemoryTests;
+			name = RekordToolTests;
 			packageProductDependencies = (
 			);
 			productName = HotMemoryTests;
-			productReference = 2831C2CC2CFABA8500E9BE5C /* HotMemoryTests.xctest */;
+			productReference = 2831C2CC2CFABA8500E9BE5C /* RekordToolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2831C2D52CFABA8500E9BE5C /* HotMemoryUITests */ = {
+		2831C2D52CFABA8500E9BE5C /* RekordToolUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryUITests" */;
+			buildConfigurationList = 2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordToolUITests" */;
 			buildPhases = (
 				2831C2D22CFABA8500E9BE5C /* Sources */,
 				2831C2D32CFABA8500E9BE5C /* Frameworks */,
@@ -153,14 +144,11 @@
 			dependencies = (
 				2831C2D82CFABA8500E9BE5C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2831C2D92CFABA8500E9BE5C /* HotMemoryUITests */,
-			);
-			name = HotMemoryUITests;
+			name = RekordToolUITests;
 			packageProductDependencies = (
 			);
 			productName = HotMemoryUITests;
-			productReference = 2831C2D62CFABA8500E9BE5C /* HotMemoryUITests.xctest */;
+			productReference = 2831C2D62CFABA8500E9BE5C /* RekordToolUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "HotMemory" */;
+			buildConfigurationList = 2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "RekordTool" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +188,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2831C2BA2CFABA8400E9BE5C /* HotMemory */,
-				2831C2CB2CFABA8500E9BE5C /* HotMemoryTests */,
-				2831C2D52CFABA8500E9BE5C /* HotMemoryUITests */,
+				2831C2BA2CFABA8400E9BE5C /* RekordTool */,
+				2831C2CB2CFABA8500E9BE5C /* RekordToolTests */,
+				2831C2D52CFABA8500E9BE5C /* RekordToolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2831C2F42CFB66C100E9BE5C /* FileStreamer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +247,12 @@
 /* Begin PBXTargetDependency section */
 		2831C2CE2CFABA8500E9BE5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2831C2BA2CFABA8400E9BE5C /* HotMemory */;
+			target = 2831C2BA2CFABA8400E9BE5C /* RekordTool */;
 			targetProxy = 2831C2CD2CFABA8500E9BE5C /* PBXContainerItemProxy */;
 		};
 		2831C2D82CFABA8500E9BE5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2831C2BA2CFABA8400E9BE5C /* HotMemory */;
+			target = 2831C2BA2CFABA8400E9BE5C /* RekordTool */;
 			targetProxy = 2831C2D72CFABA8500E9BE5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,11 +381,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HotMemory/HotMemory.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RekordTool/RekordTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HotMemory/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RekordTool/Preview Content\"";
 				DEVELOPMENT_TEAM = JMQQK9934E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -407,7 +396,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemory;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.RekordTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,11 +408,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HotMemory/HotMemory.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RekordTool/RekordTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HotMemory/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RekordTool/Preview Content\"";
 				DEVELOPMENT_TEAM = JMQQK9934E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -434,7 +423,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.HotMemory;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sekei.RekordTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,7 +444,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RekordTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RekordTool";
 			};
 			name = Debug;
 		};
@@ -473,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RekordTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RekordTool";
 			};
 			name = Release;
 		};
@@ -512,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "HotMemory" */ = {
+		2831C2B62CFABA8400E9BE5C /* Build configuration list for PBXProject "RekordTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2831C2DE2CFABA8500E9BE5C /* Debug */,
@@ -521,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemory" */ = {
+		2831C2E02CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2831C2E12CFABA8500E9BE5C /* Debug */,
@@ -530,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryTests" */ = {
+		2831C2E32CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordToolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2831C2E42CFABA8500E9BE5C /* Debug */,
@@ -539,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "HotMemoryUITests" */ = {
+		2831C2E62CFABA8500E9BE5C /* Build configuration list for PBXNativeTarget "RekordToolUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2831C2E72CFABA8500E9BE5C /* Debug */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct HotMemoryApp: App {
+struct RekordToolApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
